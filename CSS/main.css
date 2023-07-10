@@ -222,7 +222,7 @@ body {
     justify-content: flex-start;
     align-items: center;
     flex-direction: column;
-    height: 355px;
+    height: 151px;
     margin: 6px;
 }
 
@@ -421,8 +421,90 @@ th {
     margin: 10px;
     box-sizing: border-box;
 }
+
+.img-autos {
+    width: 50px;
+}
+
+.container-autos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 0.2fr 0.2fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    align-items: center;
+    justify-items: center;
+    grid-template-areas:
+        "chevrolet toyota bmw mazda mercedes-b kia hyunday ford"
+        "cherry suzuki geely haval renault peugeot audi opel";
+}
+
+.chevrolet {
+    grid-area: chevrolet;
+}
+
+.toyota {
+    grid-area: toyota;
+}
+
+.bmw {
+    grid-area: bmw;
+}
+
+.mazda {
+    grid-area: mazda;
+}
+
+.mercedes-b {
+    grid-area: mercedes-b;
+}
+
+.kia {
+    grid-area: kia;
+}
+
+.hyunday {
+    grid-area: hyunday;
+}
+
+.ford {
+    grid-area: ford;
+}
+
+.cherry {
+    grid-area: cherry;
+}
+
+.suzuki {
+    grid-area: suzuki;
+}
+
+.geely {
+    grid-area: geely;
+}
+
+.haval {
+    grid-area: haval;
+}
+
+.renault {
+    grid-area: renault;
+}
+
+.peugeot {
+    grid-area: peugeot;
+}
+
+.audi {
+    grid-area: audi;
+}
+
+.opel {
+    grid-area: opel;
+}
+
 /* MOBILE LAST */
-@media (max-width: 720px) {
+@media (max-width: 810px) {
     .container {
         display: flex;
         flex-direction: column;
@@ -440,21 +522,43 @@ th {
         height: 250px;
         margin: 18px 0px;
     }
-    .art__video{
+
+    .art__video {
         margin: 18px;
     }
-    .art__video__media{
+
+    .art__video__media {
         width: 400px;
     }
-    .formlist{
+
+    .formlist {
         display: flex;
         flex-direction: column;
         margin: 6px;
         align-items: center;
     }
+
     .right-placement {
         display: flex;
         justify-content: center;
         align-items: center;
     }
+
+    .autos-box {
+        display: flex;
+        margin: 80px;
+        flex-direction: column;
+    }
+    .container-autos {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .img-autos {
+        width: 50px;
+        margin: 10px;
+    }
+       
 }
