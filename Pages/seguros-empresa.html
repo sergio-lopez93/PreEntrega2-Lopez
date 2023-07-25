@@ -8,7 +8,7 @@
     <link rel="shortcut icon" href="../Recursos/logo link.png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-    <link rel="stylesheet" href="../CSS/main.css">
+    <link rel="stylesheet" href="../CSS/style.css">
     <title> GS - Seguros de Empresas</title>
 </head>
 
@@ -31,7 +31,8 @@
                                 Salud</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="./seguros-empresa.html">Seguro de Empresa</a>
+                            <a class="nav-link active" aria-current="page" href="./seguros-empresa.html">Seguro de
+                                Empresa</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="./seguros-autos.html">Seguro de Automovil</a>
@@ -53,7 +54,7 @@
     </header>
     <main>
         <section class="section1">
-            <div class="bg bg-image">
+            <div class="bg bg-image bg-m">
                 <div class="content">
                     <h1>SEGUROS DE EMPRESA</h1>
                 </div>
@@ -61,7 +62,27 @@
         </section>
         <div class="container">
             <div class="center-form">
-                <form class="form-empresa" action="#" method="get" enctype="text/plain">
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Nombre y Apellido</label>
+                    <input type="NombreyApellido" class="form-control" id="exampleFormControlInput1"
+                        placeholder="Sergio Lopez">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlInput2" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput2"
+                        placeholder="name@example.com">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlInput3" class="form-label">Numero de Telefono</label>
+                    <input type="number" class="form-control" id="exampleFormControlInput3"
+                        placeholder="+56 9 99999999">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+            </div>
+            <!-- <form class="form-empresa" action="#" method="get" enctype="text/plain">
                     <input type="text" placeholder="Nombre del titular" name="nombre" class="first">
                     <br>
                     <input type="number" placeholder="Cedula" name="numero">
@@ -73,14 +94,13 @@
                     <textarea class="text-empresa" name="textarea" cols="30" rows="10">Detalla tu solicitud</textarea>
                     <br>
                     <input type="submit" value="Enviar" class="button-send">
-                </form>
-            </div>
+                </form> -->
             <div class="img-empresa">
                 <img src="../Recursos/empresas.jpg" alt="Imagen de empresa" class="img-empresa">
             </div>
             <div class="art__video">
-                <iframe class="art__video__media" width="957" height="400" src="https://www.youtube.com/embed/c6N7TemEKrg"
-                    title="YouTube video player" frameborder="0"
+                <iframe class="art__video__media" width="957" height="400"
+                    src="https://www.youtube.com/embed/c6N7TemEKrg" title="YouTube video player" frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                     allowfullscreen></iframe>
             </div>
@@ -91,8 +111,10 @@
                 <img src="../Recursos/consorcio.webp" alt="Consorcio" class="ally__img">
                 <img src="../Recursos/mapfre.webp" alt="Mapfre" class="ally__img">
                 <img src="../Recursos/sura-logo-nuevo-png-.webp" alt="sura" class="ally__img">
-                <img src="../Recursos/reale-seguros-v2-630e329a3f6c73.99417724.webp" alt="reale seguros" class="ally__img">
-                <img src="../Recursos/zurichlogo_vert_blue_cmyk_with_r-removebg-preview-1-63585687c3f277.28330131.webp" alt="zurich" class="ally__img">
+                <img src="../Recursos/reale-seguros-v2-630e329a3f6c73.99417724.webp" alt="reale seguros"
+                    class="ally__img">
+                <img src="../Recursos/zurichlogo_vert_blue_cmyk_with_r-removebg-preview-1-63585687c3f277.28330131.webp"
+                    alt="zurich" class="ally__img">
             </div>
         </div>
 

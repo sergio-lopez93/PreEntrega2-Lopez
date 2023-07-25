@@ -1,0 +1,31 @@
+@import "./grids";
+
+.section-autos {
+    .center-form {
+        @include sizes;
+        flex-direction: column;
+        height: 151px;
+        margin: 10px;
+        .form-autos {
+            width: auto;
+            padding: 6px 16px;
+            margin-top: 6px;
+            background-color: $grisclaro;
+            border: none;
+            border-radius: 4px;
+        }
+    }
+}
+.section {
+    .autos-box {
+        .texto-autos {
+            .container-autos {
+                .img-autos {
+                    width: 30px;
+                }
+            }
+        }
+    }
+}
+
+/** NO ME LEE LOS COMANDOS EN EL CSS **/ 

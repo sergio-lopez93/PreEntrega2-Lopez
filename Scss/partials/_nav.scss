@@ -1,0 +1,21 @@
+.header1pl{
+    .navbar{
+        .container-fluid{
+            background-color: $grisclaro;
+            a{
+                img{
+                    width: 8rem;
+                }
+                &:hover{
+                    color: #aab7c9 !important;
+            font-weight: bolder;
+            transition: 0.3s;
+            text-decoration: underline;
+                }
+                &:link{
+                    color: #3B577D;
+                }
+            }
+        }
+    }
+}

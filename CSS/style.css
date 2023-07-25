@@ -1,0 +1,337 @@
+@import url("https://fonts.googleapis.com/css2?family=Questrial&display=swap");
+* {
+  margin: 0px;
+  padding: 0px; }
+
+a {
+  text-decoration: none; }
+
+h2, h1 {
+  font-family: 'Questrial', sans-serif;
+  font-weight: bolder;
+  color: #336699; }
+
+a, p, label {
+  font-family: 'Questrial', sans-serif; }
+
+body {
+  background-color: #fafafa; }
+
+main .container {
+  display: grid;
+  margin-top: 20px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas: "center-form Img-empresa art__ally" "art__video art__video art__ally" ". . ."; }
+  main .container .center-form {
+    grid-area: center-form; }
+  main .container .img-empresa {
+    grid-area: Img-empresa;
+    width: 600px;
+    height: 376px;
+    padding: 10px; }
+  main .container .art__video {
+    grid-area: art__video;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap; }
+  main .container .art__ally {
+    grid-area: art__ally;
+    flex-direction: column;
+    margin: 12px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap; }
+  main .container .ally__img {
+    width: 150px;
+    width: 150px;
+    margin: 10px;
+    box-sizing: border-box; }
+
+.section-autos .center-form {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  height: 151px;
+  margin: 10px; }
+  .section-autos .center-form .form-autos {
+    width: auto;
+    padding: 6px 16px;
+    margin-top: 6px;
+    background-color: #fafafa;
+    border: none;
+    border-radius: 4px; }
+
+.section .autos-box .texto-autos .container-autos .img-autos {
+  width: 30px; }
+
+/** NO ME LEE LOS COMANDOS EN EL CSS **/
+/**
+$all: all 0.5s ease;
+* {
+    @include tf($tf-fm: $sai);
+    @include other($ot-tsi: $all);
+}
+section {
+    .formlist {
+        .formContainer {
+            @include bm(100%, 100%, $bm-pd: 0 16px, $bm-dp: $fl);
+            @include flex-center($rnw) form {
+                @include bm(400px, $bm-dp: $fl);
+                @include flex-center($cw);
+                div,
+                label,
+                input,
+                textarea {
+                    @include bm(100%);
+                }
+                .field:nth-of-type(2) {
+                    @include bm($bm-mg: 16px 0);
+                }
+                label,
+                input,
+                textarea {
+                    @include bm($bm-pd: 8px);
+                }
+                label,
+                [placeholder] {
+                    @include tf(#555);
+                }
+                label i {
+                    @include bm($bm-mg: 0 10px 0 0);
+                }
+                .field:focus-within label {
+                    @include tf(#000, $tf-ls: 2px);
+                }
+                input,
+                textarea {
+                    background: rgba(255, 255, 255, 0.5);
+                    border: none;
+                    @include other($ot-br: 4px, $ot-bs: $o-b);
+                    &:focus {
+                        background: rgba(255, 255, 255, 1);
+                        @include other($ot-bs: none);
+                    }
+                }
+                
+                textarea {
+                    resize: none;
+                    &::-webkit-scrollbar {
+                        @include bm(0);
+                    }
+                }
+                
+                button {
+                    background: #2f4ad0;
+                    @include bm($bm-pd: 8px 16px, $bm-mg: 16px 0 50px 0);
+                    @include tf(#fff);
+                    border: none;
+                    @include other($ot-br: 4px, $ot-cr: pointer, $ot-bs: $o-b);
+                    &:hover {
+                        @include tf($tf-ls: 2px);
+                        @include other($ot-bs: none);
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 425px) {
+    form {
+        @include bm(100%);
+    }
+}
+**/
+.header1pl .navbar .container-fluid {
+  background-color: #fafafa; }
+  .header1pl .navbar .container-fluid a img {
+    width: 8rem; }
+  .header1pl .navbar .container-fluid a:hover {
+    color: #aab7c9 !important;
+    font-weight: bolder;
+    transition: 0.3s;
+    text-decoration: underline; }
+  .header1pl .navbar .container-fluid a:link {
+    color: #3B577D; }
+
+main .section1 {
+  background-color: #fafafa; }
+  main .section1 .bg {
+    width: 100%;
+    height: 500px;
+    background-image: url("../Recursos/original principal.png"); }
+    main .section1 .bg .content {
+      display: flex;
+      width: 45%;
+      height: 100%;
+      align-items: center;
+      margin-left: auto;
+      padding: 20px;
+      box-sizing: border-box;
+      font-size: 25px; }
+
+main .section2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 40px;
+  padding-bottom: 40px; }
+  main .section2 .bg1 {
+    background-image: url("../../Recursos/paso 1.jpg"); }
+  main .section2 .bg2 {
+    background-image: url("../../Recursos/paso 2.jpg"); }
+  main .section2 .bg3 {
+    background-image: url("../../Recursos/paso 3.jpg"); }
+  main .section2 .bg-image {
+    width: 300px;
+    height: 260px;
+    padding: 20px;
+    display: flex;
+    align-items: flex-end;
+    border-radius: 8px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; }
+    main .section2 .bg-image .txt-content {
+      background-color: #fafafa;
+      padding: 8px;
+      box-shadow: 0px 0px 3px #000000dc;
+      border-radius: 8px;
+      font-size: 14px;
+      color: #fafafa;
+      font-weight: bold;
+      color: #333333; }
+      main .section2 .bg-image .txt-content span {
+        color: #336699; }
+
+main section .video {
+  display: flex;
+  overflow: hidden;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-bottom: 40px; }
+
+main .bg-image {
+  width: 300px;
+  height: 260px;
+  padding: 20px;
+  display: flex;
+  align-items: flex-end;
+  border-radius: 8px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; }
+
+main .container {
+  display: grid;
+  margin-top: 20px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas: "center-form Img-empresa art__ally" "art__video art__video art__ally" ". . ."; }
+  main .container .center-form {
+    grid-area: center-form; }
+  main .container .img-empresa {
+    grid-area: Img-empresa;
+    width: 600px;
+    height: 376px;
+    padding: 10px; }
+  main .container .art__video {
+    grid-area: art__video;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap; }
+  main .container .art__ally {
+    grid-area: art__ally;
+    flex-direction: column;
+    margin: 12px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap; }
+  main .container .ally__img {
+    width: 150px;
+    width: 150px;
+    margin: 10px;
+    box-sizing: border-box; }
+
+footer {
+  text-align: center;
+  font-family: 'Amatic SC', cursive;
+  font-family: 'League Spartan', sans-serif;
+  text-transform: uppercase;
+  font-weight: lighter;
+  background-color: #fafafa;
+  padding: 10px; }
+
+@media screen and (max-width: 815px) {
+  main .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0; }
+    main .container .img-empresa {
+      width: 350px;
+      height: 250px;
+      margin: 18px 0px; }
+    main .container .art__video {
+      box-sizing: content-box;
+      width: 330px;
+      margin: 18px; }
+    main .container .art__video__media {
+      width: 400px; } }
+
+/** 
+.section1 {
+    .bg {
+        width: 40px;
+        height: 300px;
+        background-image: url(../../Recursos/original\ principal.png\);
+    }
+}
+
+
+    .formlist {
+        display: flex;
+        flex-direction: column;
+        margin: 6px;
+        align-items: center;
+    }
+
+    .right-placement {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .autos-box {
+        display: flex;
+        margin: 80px;
+        flex-direction: column;
+    }
+    .container-autos {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .img-autos {
+        width: 50px;
+        margin: 10px;
+    }
+       
+} **/
