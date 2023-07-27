@@ -1,5 +1,5 @@
 @mixin mobile{
-    @media screen and (max-width: 815px){
+    @media screen and (max-width: 991px){
         @content
     }
 }
@@ -30,6 +30,26 @@ main {
             
         }
     }
+
+.header1pl{
+        .navbar{
+            .container-fluid{
+                a{
+                    img{
+                        @include mobile (){
+                            margin-top: -25px;
+                        }
+                    }
+                }
+                .navbar-toggler{
+                    @include mobile (){
+                        margin-top: -25px;
+                    }
+            }
+        }
+    }
+}
+
 /** 
 .section1 {
     .bg {

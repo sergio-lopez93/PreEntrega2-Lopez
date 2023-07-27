@@ -1,19 +1,43 @@
 .header1pl{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 4;
+    box-shadow: 0 5px 5px $sombras;
     .navbar{
         .container-fluid{
             background-color: $grisclaro;
+            height: 45px;
             a{
                 img{
-                    width: 8rem;
+                    width: 6rem;
                 }
                 &:hover{
-                    color: #aab7c9 !important;
+                    color: $sombras !important;
             font-weight: bolder;
             transition: 0.3s;
             text-decoration: underline;
                 }
                 &:link{
                     color: #3B577D;
+                }
+            }
+            .navbar-collapse{
+                background-color: $grisclaro;
+                opacity: 0.9;
+            }
+            .collapse{
+                .navbar-nav{
+                    .bluecontainer{
+                        background-color: $azuloscuro;
+                        border-radius: 35px;
+                        li{
+                            .letter-link{
+                                color: $grisclaro;
+                            }
+                        }
+                    }
                 }
             }
         }

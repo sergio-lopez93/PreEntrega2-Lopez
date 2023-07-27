@@ -149,21 +149,38 @@ section {
     }
 }
 **/
-.header1pl .navbar .container-fluid {
-  background-color: #fafafa; }
-  .header1pl .navbar .container-fluid a img {
-    width: 8rem; }
-  .header1pl .navbar .container-fluid a:hover {
-    color: #aab7c9 !important;
-    font-weight: bolder;
-    transition: 0.3s;
-    text-decoration: underline; }
-  .header1pl .navbar .container-fluid a:link {
-    color: #3B577D; }
+.header1pl {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 4;
+  box-shadow: 0 5px 5px #cecaca; }
+  .header1pl .navbar .container-fluid {
+    background-color: #fafafa;
+    height: 45px; }
+    .header1pl .navbar .container-fluid a img {
+      width: 6rem; }
+    .header1pl .navbar .container-fluid a:hover {
+      color: #cecaca !important;
+      font-weight: bolder;
+      transition: 0.3s;
+      text-decoration: underline; }
+    .header1pl .navbar .container-fluid a:link {
+      color: #3B577D; }
+    .header1pl .navbar .container-fluid .navbar-collapse {
+      background-color: #fafafa;
+      opacity: 0.9; }
+    .header1pl .navbar .container-fluid .collapse .navbar-nav .bluecontainer {
+      background-color: #336699;
+      border-radius: 35px; }
+      .header1pl .navbar .container-fluid .collapse .navbar-nav .bluecontainer li .letter-link {
+        color: #fafafa; }
 
 main .section1 {
   background-color: #fafafa; }
   main .section1 .bg {
+    margin-top: 60px;
     width: 100%;
     height: 500px;
     background-image: url("../Recursos/original principal.png"); }
@@ -204,7 +221,7 @@ main .section2 {
     main .section2 .bg-image .txt-content {
       background-color: #fafafa;
       padding: 8px;
-      box-shadow: 0px 0px 3px #000000dc;
+      box-shadow: 0px 3px 3px #cecaca;
       border-radius: 8px;
       font-size: 14px;
       color: #fafafa;
@@ -221,6 +238,8 @@ main section .video {
   flex-wrap: wrap;
   justify-content: space-around;
   padding-bottom: 40px; }
+  main section .video iframe {
+    border-radius: 8px; }
 
 main .bg-image {
   width: 300px;
@@ -277,7 +296,7 @@ footer {
   background-color: #fafafa;
   padding: 10px; }
 
-@media screen and (max-width: 815px) {
+@media screen and (max-width: 991px) {
   main .container {
     display: flex;
     flex-direction: column;
@@ -293,6 +312,14 @@ footer {
       margin: 18px; }
     main .container .art__video__media {
       width: 400px; } }
+
+@media screen and (max-width: 991px) {
+  .header1pl .navbar .container-fluid a img {
+    margin-top: -25px; } }
+
+@media screen and (max-width: 991px) {
+  .header1pl .navbar .container-fluid .navbar-toggler {
+    margin-top: -25px; } }
 
 /** 
 .section1 {
