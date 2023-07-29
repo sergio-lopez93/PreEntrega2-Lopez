@@ -29,13 +29,13 @@ main {
         margin-top: 40px;
         padding-bottom: 40px;
         .bg1 {
-            background-image: url("../../Recursos/paso\ 1.jpg");
+            background-image: url(https://res.cloudinary.com/ddvdvvp2v/image/upload/v1690663728/paso_1_tnqgl3.jpg);
         }
         .bg2 {
-            background-image: url("../../Recursos/paso\ 2.jpg");
+            background-image: url(https://res.cloudinary.com/ddvdvvp2v/image/upload/v1690663735/paso_2_xfbeob.jpg);
         }
         .bg3 {
-            background-image: url("../../Recursos/paso\ 3.jpg");
+            background-image: url(https://res.cloudinary.com/ddvdvvp2v/image/upload/v1690663722/paso_3_vvay6q.jpg);
         }
         .bg-image {
             width: 300px;
@@ -121,7 +121,7 @@ main {
 }
 .section-banner {
     .bg2-img {
-        background-image: url(../../Recursos/Banner-empresa.png);
+        background-image: url(https://res.cloudinary.com/ddvdvvp2v/image/upload/v1690663013/Banner-empresa_m0oyai.png);
         @include bgimgtools(500px);
         display: flex;
         justify-content: center;

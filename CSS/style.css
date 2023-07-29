@@ -236,11 +236,11 @@ main .section2 {
   margin-top: 40px;
   padding-bottom: 40px; }
   main .section2 .bg1 {
-    background-image: url("../../Recursos/paso 1.jpg"); }
+    background-image: url(https://res.cloudinary.com/ddvdvvp2v/image/upload/v1690663728/paso_1_tnqgl3.jpg); }
   main .section2 .bg2 {
-    background-image: url("../../Recursos/paso 2.jpg"); }
+    background-image: url(https://res.cloudinary.com/ddvdvvp2v/image/upload/v1690663735/paso_2_xfbeob.jpg); }
   main .section2 .bg3 {
-    background-image: url("../../Recursos/paso 3.jpg"); }
+    background-image: url(https://res.cloudinary.com/ddvdvvp2v/image/upload/v1690663722/paso_3_vvay6q.jpg); }
   main .section2 .bg-image {
     width: 300px;
     height: 260px;
@@ -309,7 +309,7 @@ main .section-self {
           font-size: 1.1rem; }
 
 .section-banner .bg2-img {
-  background-image: url(../../Recursos/Banner-empresa.png);
+  background-image: url(https://res.cloudinary.com/ddvdvvp2v/image/upload/v1690663013/Banner-empresa_m0oyai.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
