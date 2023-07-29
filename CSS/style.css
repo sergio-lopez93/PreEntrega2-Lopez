@@ -129,7 +129,8 @@ section .autos-box {
 
 .form-salud {
   margin-left: 230px;
-  justify-content: center; }
+  justify-content: center;
+  min-height: 40vw; }
 
 #formContainer {
   display: flex;
@@ -285,7 +286,8 @@ main .section-self {
     /* width: 67%; */
     display: flex;
     align-items: center;
-    flex-direction: row; }
+    flex-direction: row;
+    min-height: 50vw; }
     main .section-self .content-self .foto-gio {
       width: 400px; }
     main .section-self .content-self .cont-text {
@@ -389,7 +391,8 @@ footer {
 
 .form-salud {
   margin-left: 230px;
-  justify-content: center; }
+  justify-content: center;
+  min-height: 40vw; }
 
 #formContainer {
   display: flex;
