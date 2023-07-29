@@ -117,7 +117,7 @@ section .autos-box {
   transition: all 0.5s ease; }
 
 .bg-autos {
-  background-image: url(../../Recursos/Banner-autos.png);
+  background-image: url(https://res.cloudinary.com/ddvdvvp2v/image/upload/v1690662687/Banner-autos_q37lrj.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -377,7 +377,7 @@ footer {
   transition: all 0.5s ease; }
 
 .bg-autos {
-  background-image: url(../../Recursos/Banner-autos.png);
+  background-image: url(https://res.cloudinary.com/ddvdvvp2v/image/upload/v1690662687/Banner-autos_q37lrj.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
