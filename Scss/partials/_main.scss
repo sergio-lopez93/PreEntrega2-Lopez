@@ -1,11 +1,12 @@
+@import "./formweb.scss";
 main {
     .section1 {
         background-color: $grisclaro;
         .bg {
             margin-top: 60px;
             width: 100%;
-            height: 500px;
             background-image: url("../Recursos/original\ principal.png");
+            @include bgimgtools(500px);
             .content {
                 display: flex;
                 width: 45%;
@@ -43,9 +44,8 @@ main {
             display: flex;
             align-items: flex-end;
             border-radius: 8px;
-            background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
+            @include bgimgtools(260px);
+            box-shadow: 0px 3px 3px $sombras;
             .txt-content {
                 background-color: $grisclaro;
                 padding: 8px;
@@ -70,20 +70,65 @@ main {
             flex-wrap: wrap;
             justify-content: space-around;
             padding-bottom: 40px;
-            iframe{
+            iframe {
                 border-radius: 8px;
             }
         }
     }
-    .bg-image {
-        width: 300px;
-        height: 260px;
-        padding: 20px;
+}
+
+main {
+    .section-self {
+        background-color: #ffffff;
+        .content-self {
+            padding: 20px;
+            box-sizing: border-box;
+            font-size: 1.2rem;
+            /* width: 67%; */
+            display: flex;
+            align-items: center;
+            flex-direction: row;
+            .foto-gio {
+                width: 400px;
+            }
+            .cont-text {
+                margin-left: 20px;
+                .second-tittle {
+                    color: $azuloscuro;
+                }
+                .letra-gris {
+                    color: $letragris;
+                }
+                .boton-contacto {
+                    background-color: $azuloscuro;
+                    border-radius: 20px;
+                    width: 155px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    &:hover {
+                        letter-spacing: 1px;
+                        transition: all 0.5s;
+                    }
+                    .letter-boton {
+                        color: $grisclaro;
+                        font-size: 1.1rem;
+                    }
+                }
+            }
+        }
+    }
+}
+.section-banner {
+    .bg2-img {
+        background-image: url(../../Recursos/Banner-empresa.png);
+        @include bgimgtools(500px);
         display: flex;
-        align-items: flex-end;
-        border-radius: 8px;
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
+        justify-content: center;
+        align-items: center;
+    }
+    .bg2-content {
+        color: $grisclaro;
+        text-shadow: black 0.2em 0.1em 0.2em;
     }
 }

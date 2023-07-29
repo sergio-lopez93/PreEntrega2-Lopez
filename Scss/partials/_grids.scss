@@ -8,6 +8,7 @@ main {
     .container {
         display: grid;
         margin-top: 20px;
+        margin: 20px 0 0 0;
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr;
         gap: 0px 0px;
@@ -23,24 +24,34 @@ main {
         .img-empresa {
             grid-area: Img-empresa;
             width: 600px;
-    height: 376px;
-    padding: 10px;
+            height: 391px;
+            padding: 10px;
         }
 
         .art__video {
             grid-area: art__video;
-            @include sizes;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
+            align-content: space-between;
         }
 
         .art__ally {
             grid-area: art__ally;
             flex-direction: column;
-            margin: 12px;
+            margin: 12px 0 0 40px;
             @include sizes;
+            .div-h2 {
+                text-align: center;
+                text-transform: uppercase;
+                font-size: 1.4rem;
+                font-weight: bolder;
+                color: $azuloscuro;
+            }
         }
 
         .ally__img {
-            width: 150px;
             width: 150px;
             margin: 10px;
             box-sizing: border-box;

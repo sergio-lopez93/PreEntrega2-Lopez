@@ -1,31 +1,27 @@
 @import "./grids";
 
-.section-autos {
-    .center-form {
-        @include sizes;
-        flex-direction: column;
-        height: 151px;
-        margin: 10px;
-        .form-autos {
-            width: auto;
-            padding: 6px 16px;
-            margin-top: 6px;
-            background-color: $grisclaro;
-            border: none;
-            border-radius: 4px;
-        }
-    }
-}
-.section {
+section {
     .autos-box {
+        padding: 70px 0 50px 0;
+        background-color: $grisclaro;
         .texto-autos {
-            .container-autos {
-                .img-autos {
-                    width: 30px;
-                }
-            }
+            padding-left: 70px;
+            font-size: 1.4rem;
+            color: $azuloscuro;
+            font-weight: bolder;
         }
     }
 }
-
-/** NO ME LEE LOS COMANDOS EN EL CSS **/ 
+.container-autos {
+    display: flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    .brand-car {
+        margin: 10px 25px 10px 25px;
+        .img-autos {
+            width: 60px;
+        }
+    }
+}

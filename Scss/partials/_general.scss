@@ -9,14 +9,19 @@ a {
     text-decoration: none;
 }
 
-h2, h1   {
+h1   {
     font-family: 'Questrial', sans-serif;
     font-weight: bolder;
     color: $azuloscuro;
 }
-a, p, label{
-    font-family: 'Questrial', sans-serif;
+h2, a, p, label{
+    font-family: inherit;
 }
 body {
     background-color: $grisclaro;
 }
+hr{
+    margin: 0;
+    padding: o;
+}
+ 
